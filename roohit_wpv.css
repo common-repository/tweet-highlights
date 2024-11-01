@@ -1,0 +1,66 @@
+.followme_l .followme{
+background: url(<?php echo $filename; ?>) no-repeat scroll right top;
+background-position:0px 0px;
+position: fixed;
+top: 150px;
+width: 36px;
+height: 280px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+left: 0pt;
+}
+.followme_r .followme{
+background: url(<?php echo $filename; ?>) no-repeat scroll left top;
+background-position:0px 0px;
+position: fixed;
+top: 150px;
+width: 36px;
+height: 280px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+right: 0pt;
+}
+.followus_l .followme{
+background: url(<?php echo $filename; ?>) no-repeat scroll right top;
+background-position:0px 0px;
+position: fixed;
+top: 150px;
+width: 36px;
+height: 280px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+left: 0pt;
+}
+.followus_r .followme{
+background: url(<?php echo $filename; ?>) no-repeat scroll left top;
+background-position:0px 0px;
+position: fixed;
+top: 150px;
+width: 36px;
+height: 280px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+right: 0pt;
+}
+.followme:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+.followus_l:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+.followus_r:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+
